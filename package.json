@@ -10,10 +10,9 @@
         "lint": "eslint . --ext .ts",
         "test": "eslint . --ext .ts && tsc && mocha",
         "fast-test": "mocha",
-        "prepare": "tsc"
+        "postinstall": "tsc"
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "@types/chai": "^4.2.14",
         "@types/mocha": "^8.2.0",
