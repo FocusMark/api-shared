@@ -1,9 +1,9 @@
 {
-    "name": "focusmark-sam-ssmsecurestring",
-    "description": "Creates a SecureString parameter in the SSM Parameter Store as a CustomResource within CloudFormation",
+    "name": "focusmark-api-shared",
+    "description": "Common shared classes used by the Focusmark API services.",
     "version": "1.0.0",
     "private": true,
-    "repository": "https://github.com/focusmark/aws-infrastructure",
+    "repository": "https://github.com/focusmark/api-shared",
     "scripts": {
         "fast-compile": "tsc",
         "compile": "eslint . --ext .ts && tsc",
