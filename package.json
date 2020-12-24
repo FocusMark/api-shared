@@ -16,7 +16,9 @@
     "files": [
         "lib/**/*"
     ],
-    "dependencies": {},
+    "dependencies": {
+        "axios": "^0.21.1"
+    },
     "devDependencies": {
         "@types/chai": "^4.2.14",
         "@types/mocha": "^8.2.0",
