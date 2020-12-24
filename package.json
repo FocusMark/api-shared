@@ -3,6 +3,8 @@
     "description": "Common shared classes used by the Focusmark API services.",
     "version": "1.0.0",
     "private": true,
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "repository": "https://github.com/focusmark/api-shared",
     "scripts": {
         "fast-compile": "tsc",
@@ -10,8 +12,13 @@
         "lint": "eslint . --ext .ts",
         "test": "eslint . --ext .ts && tsc && mocha",
         "fast-test": "mocha",
+        "prepare": "npm run compile",
+        "prepublishonly": "npm run test && npm run lint",
         "postinstall": "tsc"
     },
+    "files": [
+        "lib/**/*"
+    ],
     "dependencies": {},
     "devDependencies": {
         "@types/chai": "^4.2.14",

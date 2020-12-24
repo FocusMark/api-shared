@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "target": "es2017",
+    "declaration": true,
     "module": "commonjs",
-    "outDir": "./dist",
+    "outDir": "./lib",
     "strict": true,
     "typeRoots": [
       "node_modules/@types"
