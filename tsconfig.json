@@ -5,12 +5,14 @@
     "module": "commonjs",
     "outDir": "./lib",
     "strict": true,
+    "sourceMap": true,
     "typeRoots": [
       "node_modules/@types"
     ],                       
     "types": [
       "node"
     ],
+    "rootDir": "src",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
