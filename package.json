@@ -11,10 +11,7 @@
         "compile": "eslint . --ext .ts && tsc",
         "lint": "eslint . --ext .ts",
         "test": "eslint . --ext .ts && tsc && mocha",
-        "fast-test": "mocha",
-        "prepare": "tsc",
-        "prepublishonly": "npm run test && npm run lint",
-        "postinstall": "tsc"
+        "fast-test": "mocha"
     },
     "files": [
         "lib/**/*"
