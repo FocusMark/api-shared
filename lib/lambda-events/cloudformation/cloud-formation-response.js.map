@@ -1,0 +1,1 @@
+{"version":3,"file":"cloud-formation-response.js","sourceRoot":"","sources":["../../../src/lambda-events/cloudformation/cloud-formation-response.ts"],"names":[],"mappings":";;;AAGA,MAAa,sBAAsB;IAI/B,YAAY,KAA4C,EAAE,OAAY;QAClE,IAAI,CAAC,KAAK,GAAG,KAAK,CAAC;QACnB,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IAC3B,CAAC;CAKJ;AAZD,wDAYC"}
